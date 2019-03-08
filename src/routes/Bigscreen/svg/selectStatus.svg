@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="234px" height="106px" viewBox="0 0 234 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>选中态</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-8.6%" y="-22.0%" width="117.1%" height="143.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.2   0 0 0 0 0.733333333   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-2">
+            <stop stop-color="#ABF2FF" offset="0%"></stop>
+            <stop stop-color="#ABF2FF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M193.871311,81.904 L15.8225439,81.904 L15.8556166,81.8709272 L1.78329573e-15,66.0153106 L0,15.8225439 L15.8225439,-9.02056208e-16 L193.871311,0 L209.726927,15.8556166 L209.76,15.8225439 L209.76,66.0153106 L209.726927,65.9822379 L193.838238,81.8709272 L193.871311,81.904 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="状态" transform="translate(-849.000000, -4232.000000)">
+            <g id="Group-4-Copy-7" transform="translate(861.000000, 4244.000000)">
+                <g id="Group">
+                    <g id="选中态" filter="url(#filter-1)">
+                        <g id="Combined-Shape">
+                            <use fill-opacity="0.05" fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <path stroke="#ABF2FF" stroke-width="1.1235" d="M16.1213738,81.34225 L15.8225439,81.34225 L15.8225439,81.904 L16.2197611,82.3012172 L16.6500511,81.8709272 L16.1213738,81.34225 Z M0.56175,65.7826262 L0.397217234,65.6180934 L0.56175,66.0153106 L0.56175,65.7826262 Z M0.56175,16.0552283 L0.56175,15.8225439 L0.397217234,16.2197611 L0.56175,16.0552283 Z M16.0552283,0.56175 L16.2197611,0.397217234 L15.8225439,0.56175 L16.0552283,0.56175 Z M193.638626,0.56175 L193.871311,0.56175 L193.474093,0.397217234 L193.638626,0.56175 Z M209.19825,16.1213738 L209.726927,16.6500511 L210.157217,16.2197611 L209.76,15.8225439 L209.19825,15.8225439 L209.19825,16.1213738 Z M209.19825,65.7164807 L209.19825,66.0153106 L209.76,66.0153106 L210.157217,65.6180934 L209.726927,65.1878034 L209.19825,65.7164807 Z M193.572481,81.34225 L193.043803,81.8709272 L193.474093,82.3012172 L193.871311,81.904 L193.871311,81.34225 L193.572481,81.34225 Z"></path>
+                        </g>
+                        <polygon id="Rectangle-10" fill="#ABF2FF" points="1.1235 22.47 4.494 25.8405 4.494 56.0635 1.1235 59.434"></polygon>
+                        <polygon id="Rectangle-10-Copy" fill="#ABF2FF" transform="translate(206.951250, 40.952000) scale(-1, 1) translate(-206.951250, -40.952000) " points="205.266 22.47 208.6365 25.8405 208.6365 56.0635 205.266 59.434"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

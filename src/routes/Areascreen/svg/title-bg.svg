@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8184px" height="355px" viewBox="0 0 8184 355" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>顶部背景</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="8184" height="355"></rect>
+        <linearGradient x1="51.030165%" y1="83.1110099%" x2="51.030165%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#0C247C" stop-opacity="0.01" offset="0%"></stop>
+            <stop stop-color="#0B2B7F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="5.09315452%" y1="49.9822587%" x2="51.1061566%" y2="49.9822587%" id="linearGradient-4">
+            <stop stop-color="#448FBC" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#B3DBFF" offset="31.4447571%"></stop>
+            <stop stop-color="#448FBC" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="大屏-0727" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="五常街道产业大脑">
+            <g id="顶部背景">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangle-11" fill-opacity="0" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <path d="M2572.59667,160.925887 L2478.13955,350.56673 C2476.7866,353.283034 2474.01325,355 2470.97865,355 L-459.171993,355 C-462.177266,355 -464.929017,353.315722 -466.296208,350.639446 L-521.265744,243.036578 L-850.787756,251.782048 C-855.204479,251.899267 -858.879965,248.413831 -858.997184,243.997108 C-858.999061,243.926376 -859,243.855622 -859,243.784864 L-859,-1142 C-859,-1146.41828 -855.418278,-1150 -851,-1150 L8176,-1150 C8180.41828,-1150 8184,-1146.41828 8184,-1142 L8184,4.20950196 C8184,8.54510966 8180.54633,12.09166 8176.21224,12.206686 L2572.59667,160.925887 Z" id="Combined-Shape" fill="url(#linearGradient-3)" mask="url(#mask-2)"></path>
+                <path d="M2474.5591,348.783365 L2570.08783,156.991063 L8176.10612,8.20809397 C8178.27316,8.150581 8180,6.37730581 8180,4.20950196 L8180,-1142 C8180,-1144.20914 8178.20914,-1146 8176,-1146 L-851,-1146 C-853.209139,-1146 -855,-1144.20914 -855,-1142 L-855,243.784864 C-855,243.820243 -854.999531,243.85562 -854.998592,243.890986 C-854.939982,246.099348 -853.102239,247.842066 -850.893878,247.783456 L-518.850904,238.97108 L-462.734101,348.819723 C-462.050505,350.157861 -460.67463,351 -459.171993,351 L2470.97865,351 C2472.49595,351 2473.88263,350.141517 2474.5591,348.783365 Z" id="Combined-Shape" stroke="url(#linearGradient-4)" stroke-width="8" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

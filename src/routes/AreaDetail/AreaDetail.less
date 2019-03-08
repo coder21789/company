@@ -1,0 +1,101 @@
+.topOption {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+.cardTitleLeft {
+  :global {
+    .ant-card-head {
+      padding-left: 0;
+      padding-right: 0;
+      .ant-card-head-title {
+        padding: 16px 0 6px;
+        color: #333;
+      }
+    }
+  }
+}
+.cardTitleRight {
+  :global {
+    .ant-card-head {
+      padding-left: 0;
+      padding-right: 0;
+      .ant-card-head-title {
+        padding: 20px 0 6px;
+        color: #333;
+        line-height: 2;
+      }
+    }
+  }
+}
+
+.cardTitleTab {
+  :global {
+    .ant-card-head-title {
+      position: relative;
+      top: 11px;
+    }
+    .ant-card-extra {
+      padding: 20px 0 12px 0;
+    }
+  }
+}
+.cnt {
+  background: rgba(255, 255, 255, 1);
+  // box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.box {
+  .title {
+    height: 40px;
+    background: linear-gradient(90deg, rgba(53, 190, 250, 1), rgba(24, 137, 242, 1));
+    border-radius: 3px 3px 0 0;
+  }
+}
+
+// 无袖表格
+.sleeveLessList {
+  height: 100%;
+  :global {
+    .ant-table-wrapper {
+      border-right: 1px solid rgba(151, 151, 151, 0.2);
+      display: inline-block;
+      vertical-align: middle;
+      width: 100%;
+      table {
+        width: 100%;
+        border: none;
+      }
+      .ant-table-small {
+        border: none;
+        .ant-table-thead > tr > th,
+        .ant-table-tbody > tr > td {
+          border: none !important;
+        }
+      }
+    }
+  }
+}
+
+.textNoWrap {
+  display: inline-block;
+  width: 160px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+:global {
+  .ant-cascader-picker-arrow-expand:before {
+    content: '\e60c';
+  }
+  .ant-cascader-picker-clear:before {
+    content: '\e612';
+  }
+  .ant-cascader-menu-item-expand:after {
+    content: '\e7ec';
+  }
+}

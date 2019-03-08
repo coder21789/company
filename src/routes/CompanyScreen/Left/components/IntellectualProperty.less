@@ -1,0 +1,141 @@
+.panel {
+  position: absolute;
+  right: 44px;
+  top: 60px;
+  &_title {
+    width: 469px;
+    height: 43px;
+    position: relative;
+    background: url(../../svg/panel-big-title-bg.svg) -10px -38px no-repeat;
+    .zh {
+      font-size: 20px;
+      color: rgba(217, 238, 255, 1);
+      position: absolute;
+      bottom: 8px;
+      width: 125px;
+      left: 9px;
+    }
+    .en {
+      font-size: 14px;
+      color: #cef;
+      position: absolute;
+      right: 9px;
+      bottom: 9px;
+      text-transform: uppercase;
+    }
+    .shaft_name {
+      font-size: 18px;
+      color: #ade3ff;
+      line-height: 25px;
+      position: absolute;
+      bottom: -39px;
+      left: -20px;
+    }
+  }
+  &_content {
+    position: relative;
+    width: 469px;
+    height: 287px;
+    overflow: hidden;
+    padding: 28px 0 30px;
+    .graph {
+      display: flex;
+      justify-content: space-around;
+      position: absolute;
+      left: 148px;
+      top: 78px;
+      .graphItem {
+        width: 300px;
+        height: 100%;
+        transform: scale(0.4);
+        margin-left: -168px;
+        .itemBar {
+          width: 100%;
+          height: 188px;
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
+        }
+      }
+      .itemText {
+        text-align: center;
+        width: 280px;
+        font-size: 40px;
+        color: rgba(173, 227, 255, 1);
+      }
+    }
+  }
+}
+.shaft {
+  position: absolute;
+  right: 440px;
+  top: 100px;
+  font-size: 18px;
+  color: #ade3ff;
+  line-height: 25px;
+  width: 100px;
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    font-size: 17px;
+    color: rgba(173, 227, 255, 1);
+    margin-bottom: 23px;
+    list-style: none;
+    text-align: right;
+    padding-right: 18px;
+  }
+}
+.empty {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  width: 160px;
+  margin-left: 150px;
+  &_img {
+    width: 167px;
+    height: 152px;
+    background: url('../../img/empty.png') 50% 50% no-repeat;
+    background-size: cover;
+    margin: 20px 0;
+  }
+  &_text {
+    font-size: 24px;
+    color: rgba(217, 238, 255, 1);
+  }
+}
+
+// 添加全局swiper
+
+:global(#IntellectualProperty .swiper-bg) {
+  background: url(../../img/knowledge.png) right bottom no-repeat;
+  height: 100%;
+}
+:global(.swiper-paginations) {
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 10px !important;
+  padding-left: 382px;
+}
+:global(.swiper-paginations.swiper-pagination-bullets .swiper-pagination-bullet) {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(5, 94, 111, 1);
+  font-size: 17px;
+  color: rgba(131, 180, 204, 1);
+  line-height: 30px;
+  margin: 0 0 0 12px;
+  float: left;
+  text-align: center;
+  opacity: 1;
+  padding: 0;
+  background: none;
+  border-radius: 0;
+}
+:global(.swiper-paginations.swiper-pagination-bullets .swiper-pagination-bullet-active) {
+  border: 1px solid rgba(171, 242, 255, 1);
+  color: rgba(173, 227, 255, 1);
+  font-weight: 500;
+}

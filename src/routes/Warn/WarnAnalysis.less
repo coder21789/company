@@ -1,0 +1,177 @@
+@import '~antd/lib/style/themes/default.less';
+@import '../../utils/utils.less';
+.bar {
+  margin-bottom: 12px;
+  .name {
+    font-size: 16px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.85);
+    float: left;
+  }
+  .enterprise {
+    right: 0;
+    top: 0;
+    display: block;
+    width: 224px;
+    line-height: 38px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    text-indent: 12px;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    float: left;
+  }
+  .down1 {
+    color: rgba(0, 0, 0, 0.25);
+    margin: 14px 16px 0 0;
+    float: right;
+    font-size: 12px;
+  }
+}
+
+.card {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0 5px;
+  &_content {
+    display: flex;
+    height: 139px;
+    align-items: flex-end;
+  }
+  &_title {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.85);
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+    font-weight: 500;
+  }
+  &_chart {
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 160px;
+    &_title {
+      font-size: 12px;
+      color: rgba(153, 153, 153, 1);
+      line-height: 12px;
+      text-align: center;
+      margin-top: 12px;
+    }
+  }
+  .taxChange {
+    margin-left: -5px;
+  }
+}
+.max {
+  font-size: 36px;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 50px;
+  font-weight: 500;
+  margin: 14px auto 0;
+  text-align: center;
+  &_font {
+    font-size: 12px;
+    color: #666;
+  }
+}
+.map {
+  margin: 20px 5px;
+  .adminAreaWrap {
+    .clearfix();
+    .left {
+      position: relative;
+      display: inline-block;
+      width: 45.392156862745104%;
+      height: 414px;
+      min-height: 414px;
+      svg {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: ~'calc(100% - 33px)';
+      }
+      .mapRank {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        width: 187px;
+        overflow: hidden;
+        p {
+          display: flex;
+          justify-content: space-between;
+          font-size: 12px;
+          color: rgba(51, 51, 51, 1);
+          margin-bottom: 3px;
+        }
+        div {
+          width: 187px;
+          height: 12px;
+          background: linear-gradient(90deg, rgba(0, 121, 254, 1), rgba(218, 240, 254, 1));
+        }
+      }
+    }
+    .right {
+      display: inline-block;
+      vertical-align: top;
+      width: 54.607843137254896%;
+      height: 414px;
+    }
+    :global {
+      .ant-table {
+        font-size: 12px;
+        .ant-table-thead > tr > th,
+        .ant-table-tbody > tr > td {
+          padding: 12px 0 13px 20px;
+        }
+        .ant-table-thead > tr > th:not(:first-child),
+        .ant-table-tbody > tr > td:not(:first-child) {
+          padding: 0;
+        }
+        .ant-table-thead > tr > th:last-child {
+          padding-right: 12px;
+        }
+      }
+      .minMap_color_rank {
+        li {
+          &:nth-child(1) {
+            background: rgba(0, 121, 254, 0.6) !important;
+          }
+          &:nth-child(2) {
+            background: rgba(0, 121, 254, 0.6) !important;
+            opacity: 0.7998000000000001 !important;
+          }
+          &:nth-child(3) {
+            background: rgba(38, 168, 254, 0.6) !important;
+          }
+          &:nth-child(4) {
+            background: rgba(222, 242, 255, 0.6) !important;
+            opacity: 0.7998000000000001 !important;
+          }
+          &:nth-child(5) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+.lastCard {
+  margin-bottom: 10px;
+}
+
+:global {
+  .ant-table {
+    font-size: 12px;
+    .ant-table-thead > tr > th,
+    .ant-table-tbody > tr > td {
+      padding: 12px 0 13px 20px;
+    }
+  }
+  .ant-layout-content {
+    margin: 20px 15px !important;
+  }
+}

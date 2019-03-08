@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="156px" viewBox="0 0 69 156" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48 (47235) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M742.091053,2766.40875 L738.281579,2766.40875 L738.281579,2812.58342 C738.281579,2816.26527 735.29685,2819.25 731.615,2819.25 C727.93315,2819.25 724.948421,2816.26527 724.948421,2812.58342 L724.948421,2764.45726 L724.948421,2725.31 L723.043684,2725.31 L723.043684,2761.64691 C723.043684,2764.2768 720.911735,2766.40875 718.281842,2766.40875 C715.651949,2766.40875 713.52,2764.2768 713.52,2761.64691 L713.52,2723.35851 L713.52,2715.52458 C713.52,2710.12025 717.90108,2705.73917 723.305417,2705.73917 L757.067215,2705.73917 C762.471551,2705.73917 766.852632,2710.12025 766.852632,2715.52458 L766.852632,2722.37717 L766.852632,2761.64691 C766.852632,2764.2768 764.720682,2766.40875 762.090789,2766.40875 C759.460897,2766.40875 757.328947,2764.2768 757.328947,2761.64691 L757.328947,2725.31 L755.424211,2725.31 L755.424211,2764.45726 L755.424211,2812.58342 C755.424211,2816.26527 752.439481,2819.25 748.757632,2819.25 C745.075782,2819.25 742.091053,2816.26527 742.091053,2812.58342 L742.091053,2766.40875 Z M740.186316,2701.825 C733.874573,2701.825 728.757895,2696.5677 728.757895,2690.0825 C728.757895,2683.5973 733.874573,2678.34 740.186316,2678.34 C746.498058,2678.34 751.614737,2683.5973 751.614737,2690.0825 C751.614737,2696.5677 746.498058,2701.825 740.186316,2701.825 Z" id="path-1"></path>
+        <filter x="-22.5%" y="-8.5%" width="145.0%" height="117.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.2   0 0 0 0 0.733333333   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="宽屏-风格1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-706.000000, -2671.000000)">
+        <g id="Combined-Shape-Copy">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#CCE8FF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

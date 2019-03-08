@@ -1,0 +1,99 @@
+.rightThreeWrap {
+  position: absolute;
+  top: 2201px;
+  left: 2184px;
+
+  width: 2880px;
+  height: 943px;
+
+  margin-top: -43px;
+  padding-top: 43px;
+  border-radius: 1px;
+  background: url('../../img/rightThreeBg.svg') 100% 100% no-repeat;
+
+  color: #d9eeff;
+  font-size: 56px;
+
+  display: flex;
+
+  .wrap {
+    flex: 1;
+    padding: 75px 70px 0 67px;
+    .cnt {
+      width: 100%;
+      // background: red;
+      height: 700px;
+      position: relative;
+      .bg {
+        padding: 0;
+        position: absolute;
+        bottom: 30px;
+        width: 100%;
+        li {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 53px;
+          .left {
+            width: 100px;
+            font-size: 34px;
+            text-align: right;
+            color: rgba(173, 227, 255, 1);
+          }
+          .right {
+            margin: 0 33px;
+            width: ~'calc(100% - 166px)';
+            transform: translateY(22.5px);
+            height: 3px;
+            background: rgba(204, 238, 255, 0.1);
+          }
+        }
+      }
+      .graph {
+        position: absolute;
+        z-index: 5;
+        right: 33px;
+        bottom: 53px;
+        width: ~'calc(100% - 166px)';
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        transform: translateY(135px);
+        .graphItem {
+          width: 300px;
+          height: 100%;
+          .itemNub {
+            position: relative;
+            width: 100%;
+            // width: 180px;
+            height: 72px;
+            text-align: center;
+            line-height: 72px;
+            font-size: 38px;
+            text-shadow: 0 0 4px #3bf;
+            color: rgba(230, 247, 255, 1);
+            background: url('../../img/itemNum.svg') no-repeat;
+            background-size: 100% 100%;
+            img {
+              position: absolute;
+              width: 180px;
+              height: 72px;
+              z-index: -1;
+            }
+          }
+          .itemBar {
+            width: 100%;
+            height: 438px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+          }
+          .itemText {
+            text-align: center;
+            font-size: 54px;
+            color: rgba(230, 247, 255, 1);
+          }
+        }
+      }
+    }
+  }
+}

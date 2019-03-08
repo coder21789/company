@@ -1,0 +1,97 @@
+.panel {
+  position: absolute;
+  right: 34px;
+  bottom: 10px;
+  &_title {
+    width: 146px;
+    height: 239px;
+    position: relative;
+    background: url('../../svg/opinion-title-bg.svg') -2px -36px no-repeat;
+    float: right;
+    .zh {
+      width: 24px;
+      height: 112px;
+      font-size: 20px;
+      line-height: 28px;
+      position: absolute;
+      right: 10px;
+      top: 14px;
+      color: #d9eeff;
+    }
+    .en {
+      height: 20px;
+      font-size: 14px;
+      line-height: 20px;
+      position: absolute;
+      right: 15px;
+      bottom: 6px;
+      color: #cef;
+      text-transform: uppercase;
+    }
+  }
+  &_content {
+    float: right;
+    overflow: hidden;
+    margin-right: -85px;
+    width: 370px;
+    height: 210px;
+    &_swiper {
+      height: 60px;
+      margin-bottom: 10px;
+      border-left: 3px solid rgba(61, 180, 255, 1);
+      background: linear-gradient(90deg, rgba(1, 190, 255, 0.2), rgba(7, 159, 255, 0));
+      list-style: none;
+      position: relative;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      display: block;
+    }
+    .desc {
+      width: 350px;
+      height: 30px;
+      font-size: 14px;
+      color: rgba(217, 238, 255, 1);
+      line-height: 20px;
+      padding: 8px 8px 9px 8px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .source {
+      line-height: 17px;
+      font-size: 12px;
+      position: absolute;
+      left: 8px;
+      bottom: 6px;
+      color: rgba(1, 136, 255, 1);
+    }
+    .statDate {
+      line-height: 17px;
+      font-size: 12px;
+      color: rgba(1, 136, 255, 1);
+      position: absolute;
+      right: 8px;
+      bottom: 6px;
+    }
+  }
+  .empty {
+    text-align: center;
+    width: 170px;
+    height: 210px;
+    margin-right: 80px;
+    float: right;
+    &_img {
+      width: 167px;
+      height: 152px;
+      background: url('../../img/empty.png') 50% 50% no-repeat;
+      background-size: cover;
+      margin: 20px 0;
+    }
+    &_text {
+      font-size: 24px;
+      color: rgba(217, 238, 255, 1);
+    }
+  }
+}

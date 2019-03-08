@@ -1,0 +1,26 @@
+.record {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  li {
+    border-radius: 50%;
+    list-style: none;
+    background: radial-gradient(180px circle, #8f4dbf, #f3fbfc);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    .value {
+      font-size: 24px;
+    }
+  }
+  li + li {
+    margin-left: 55px;
+  }
+}

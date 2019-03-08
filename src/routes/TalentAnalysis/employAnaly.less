@@ -1,0 +1,178 @@
+@import '~antd/lib/style/themes/default.less';
+@import '../../utils/utils.less';
+p,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+
+.employBlock {
+  margin-top: 18px;
+  // flex: 1;
+  // margin-right: 20px;
+  height: 125px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  .word {
+    font-size: 12px;
+    font-family: PingFangSC-Regular;
+    color: rgba(0, 0, 0, 0.45);
+  }
+  .employTop {
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(247, 247, 247, 1);
+    .count {
+      font-size: 20px;
+      font-family: PingFangSC-Regular;
+      color: rgba(51, 51, 51, 1);
+    }
+    .rate {
+      font-size: 12px;
+      font-family: PingFangSC-Regular;
+      color: rgba(94, 191, 38, 1);
+    }
+  }
+  .employBottom {
+    background: #fff;
+    display: flex;
+    height: 39px;
+    line-height: 41px;
+    justify-content: space-around;
+  }
+}
+
+// 企业变化趋势
+.cardTitleLeft {
+  :global {
+    .ant-card-head {
+      padding-left: 0;
+      .ant-card-head-title {
+        padding: 16px 0 6px;
+        color: #333;
+      }
+    }
+  }
+}
+// 高级人才分析
+.withoutCount {
+  width: 100%;
+  height: 215px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.analyNav {
+  padding: 8px;
+  .analyTitle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    span {
+      font-size: 16px;
+      font-family: PingFangSC-Regular;
+      color: rgba(0, 0, 0, 0.45);
+    }
+  }
+  .analyLabel {
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    i {
+      display: inline-block;
+      height: 14px;
+      margin-top: 5px;
+    }
+    p {
+      width: 45px;
+      color: rgba(0, 0, 0, 0.85);
+    }
+    span {
+      display: inline-block;
+      width: 45px;
+      text-align: right;
+      font-size: 16px;
+      font-family: PingFangSC-Regular;
+      color: rgba(0, 0, 0, 0.85);
+    }
+  }
+}
+.analyLabel:nth-child(1) {
+  i {
+    background: linear-gradient(270deg, rgba(53, 190, 250, 1) 0%, rgba(24, 137, 242, 1) 100%);
+  }
+}
+.analyLabel:nth-child(2) {
+  i {
+    background: linear-gradient(270deg, rgba(253, 194, 97, 1) 0%, rgba(250, 143, 50, 1) 100%);
+  }
+}
+.analyLabel:nth-child(3) {
+  i {
+    background: linear-gradient(270deg, rgba(78, 218, 225, 1) 0%, rgba(38, 178, 191, 1) 100%);
+  }
+}
+// 来源分析
+.sourceAnaly {
+  display: flex;
+  .mapBlock {
+    width: 62%;
+    height: 458px;
+    border: 1px solid #eee;
+  }
+  .sourceCount {
+    width: 38%;
+    .sourceTitle {
+      text-align: center;
+      font-size: 16px;
+      font-family: PingFangSC-Regular;
+      color: #333;
+    }
+    ul {
+      li {
+        display: flex;
+        margin-top: 23px;
+        font-size: 14px;
+        font-family: PingFangSC-Regular;
+        p {
+          color: rgba(0, 0, 0, 0.65);
+          margin: 0 20px 0 25px;
+        }
+        i {
+          display: inline-block;
+          margin-top: 6px;
+          width: 150px;
+          height: 10px;
+          background: rgba(250, 143, 50, 1);
+          border-radius: 6px;
+        }
+        span {
+          display: inline-block;
+          width: 70px;
+          text-align: right;
+          color: #666;
+        }
+      }
+    }
+  }
+}
+
+// 圆圈
+.cultureCircle {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}

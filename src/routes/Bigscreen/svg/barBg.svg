@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="79px" height="381px" viewBox="0 0 79 381" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48 (47235) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#DAFAFF" offset="0%"></stop>
+            <stop stop-color="#91E1F1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#4CC3FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#4CC3FF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-3" x="0" y="0" width="73.0275" height="380.8665"></rect>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-4">
+            <stop stop-color="#00A7FA" offset="0%"></stop>
+            <stop stop-color="#2B7DA6" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1118.000000, -300.000000)">
+        <g id="Group-5" transform="translate(1118.000000, 300.000000)">
+            <g id="Rectangle-25-Copy-5">
+                <use fill-opacity="0.02" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <rect stroke="url(#linearGradient-2)" stroke-width="3.23568" x="1.61784" y="1.61784" width="69.79182" height="377.63082"></rect>
+            </g>
+            <path d="M2.247,287.8407 L11.235,297.7275 L11.235,358.3965 L0,368.508 L0,297.7275 L0,0 L2.247,0 L2.247,287.8407 Z" id="Combined-Shape-Copy-13" fill="url(#linearGradient-4)"></path>
+            <path d="M73.0275,108.177 L78.645,114.597 L78.645,179.76 L73.0275,186.18 L73.0275,373.002 L70.7805,373.002 L70.7805,1.1235 L73.0275,1.1235 L73.0275,108.177 Z" id="Combined-Shape-Copy-18" fill="url(#linearGradient-4)"></path>
+        </g>
+    </g>
+</svg>

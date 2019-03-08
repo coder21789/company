@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="212px" height="199px" viewBox="0 0 212 199" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>金融服务</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="1.11022302e-14%" x2="1.11022302e-14%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0097FF" offset="0%"></stop>
+            <stop stop-color="#00FFFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M24.0595013,62.664667 L9.64530313,62.664667 C5.08787288,62.664667 1.16636313,59.4850643 0.212482383,55.0336208 C-0.741398367,50.5821771 1.59031013,46.1307336 5.72379338,44.2229721 L102.065751,0.874390688 C104.503446,-0.291463562 107.365088,-0.291463562 109.90877,0.874390688 L205.402833,43.9050118 C209.218357,45.1768528 211.974012,48.7804025 211.974012,53.0198725 C211.974012,58.3192102 207.628555,62.664667 202.329218,62.664667 L187.703046,62.664667 L187.703046,147 L192,147 C194.209139,147 196,148.790861 196,151 L196,163 C196,165.209139 194.209139,167 192,167 L20,167 C17.790861,167 16,165.209139 16,163 L16,151 C16,148.790861 17.790861,147 20,147 L24.0595013,147 L24.0595013,62.664667 Z M168.519444,62.664667 L139.585061,62.664667 L139.585061,147.697538 L168.519444,147.697538 L168.519444,62.664667 Z M120.401459,62.664667 L91.4670756,62.664667 L91.4670756,147.697538 L120.401459,147.697538 L120.401459,62.664667 Z M72.2834734,62.664667 L43.3490903,62.664667 L43.3490903,147.697538 L72.2834734,147.697538 L72.2834734,62.664667 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="7大产业icon" transform="translate(-823.000000, -1827.000000)">
+            <g id="金融服务" transform="translate(823.000000, 1827.000000)">
+                <g id="银行-(1)">
+                    <g id="Rectangle-38">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Mask" fill="url(#linearGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
+                        <rect fill="#000000" opacity="0.100000001" mask="url(#mask-3)" x="24" y="63" width="164" height="24"></rect>
+                    </g>
+                </g>
+                <rect id="Rectangle-40" fill="url(#linearGradient-1)" x="1" y="177" width="210" height="22" rx="4"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

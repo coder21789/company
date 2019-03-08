@@ -1,0 +1,113 @@
+.cnt {
+  background: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+}
+.rightButton {
+  text-align: right;
+  margin-top: 6px;
+  button + button {
+    margin-left: 12px;
+  }
+}
+
+.init {
+  background: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  border: 1px solid rgba(204, 204, 204, 1);
+}
+
+.colSql {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  width: 200px; //美中不足的就是这里width需要定值
+}
+
+.clickStyle {
+  color: #4a90e2;
+  cursor: pointer;
+}
+.policy {
+  :global {
+    .ant-modal-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .ant-modal {
+      position: static;
+    }
+    //   .ant-upload-list-item-error{
+    //     color: rgba(0, 0, 0, 0.65);
+    // }
+  }
+}
+:global {
+  .ant-modal-body {
+    padding: 20px;
+  }
+  .ant-form-item {
+    margin-bottom: 20px;
+  }
+  .ant-modal-header {
+    padding: 12px 20px;
+  }
+  .ant-btn-danger {
+    background: rgba(230, 50, 72, 1);
+    color: white;
+  }
+  .ant-form-item-label {
+    padding-right: 5px;
+  }
+  .ant-modal-close-x:before,
+  .anticon-cross:before {
+    content: '\e7fc';
+  }
+  .anticon-search:before {
+    content: '\e69c';
+  }
+  .ant-btn {
+    padding: 0 11px;
+  }
+  .ant-btn > .anticon + span {
+    margin-left: 4px;
+  }
+  .ant-table-thead > tr > th {
+    background: #f7f7f7;
+  }
+  .anticon-paper-clip:before {
+    content: '\e6fd';
+  }
+  .ant-table-row:hover {
+    background: #f2f8fc;
+  }
+  .ant-table-thead > tr > th,
+  .ant-table-tbody > tr > td {
+    padding: 9px 16px;
+    font-size: 12px;
+  }
+  // .ant-modal-wrap {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   padding: 20px 0;
+  // }
+  // .ant-modal {
+  //   position: static;
+  // }
+  // .ant-upload-list-text:before{
+  // content: "\e6ce";
+  // }
+  //  .anticon-paper-clip:before{
+  //    display: none;
+  //  }
+  // .ant-modal-wrap {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
+  // .ant-modal {
+  //   position: static;
+  // }
+}

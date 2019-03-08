@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1172px" height="584px" viewBox="0 0 1172 584" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48 (47235) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0053A8" stop-opacity="0.6" offset="0%"></stop>
+            <stop stop-color="#00296F" stop-opacity="0.6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="1.76683182%" y1="3.71035307%" x2="42.6219807%" y2="73.6888807%" id="linearGradient-2">
+            <stop stop-color="#65CCF8" offset="0%"></stop>
+            <stop stop-color="#65CCF8" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M1146.45,514.87725 L1102.77225,558.555 L45.9472499,558.555 L3,515.60775 L3,45.2167498 L45.2167498,3 L1103.50275,3 L1146.45,45.9472499 L1146.45,514.87725 Z" id="path-3"></path>
+        <linearGradient x1="98.3974534%" y1="95.7569046%" x2="64.2999597%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#69D2FF" offset="0%"></stop>
+            <stop stop-color="#65CCF8" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M1148.45,516.87725 L1104.77225,560.555 L47.9472499,560.555 L5,517.60775 L5,47.2167498 L47.2167498,5 L1105.50275,5 L1148.45,47.9472499 L1148.45,516.87725 Z" id="path-5"></path>
+        <polygon id="path-6" points="6.93 76.23 0 76.23 0 44.0943798 44.2119441 0 124.74 0 124.74 6.93 47.0770411 6.93 6.93 46.9702858"></polygon>
+        <filter x="-30.9%" y="-50.5%" width="161.7%" height="201.0%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="11.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.26   0 0 0 0 0.753333333   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.31   0 0 0 0 0.77   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1662.000000, -1391.000000)">
+        <g id="Group-2" transform="translate(1685.000000, 1414.000000)">
+            <g id="Combined-Shape-Copy-30">
+                <use fill-opacity="0.5" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <path stroke="url(#linearGradient-2)" stroke-width="4.62" d="M1144.14,513.920417 L1144.14,46.9040833 L1102.54592,5.31 L46.1735832,5.31 L5.31,46.1735832 L5.31,514.650917 L46.9040833,556.245 L1101.81542,556.245 L1144.14,513.920417 Z"></path>
+            </g>
+            <g id="Combined-Shape-Copy-30">
+                <use fill-opacity="0.5" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-5"></use>
+                <path stroke="url(#linearGradient-4)" stroke-width="4.62" d="M1146.14,515.920417 L1146.14,48.9040833 L1104.54592,7.31 L48.1735832,7.31 L7.31,48.1735832 L7.31,516.650917 L48.9040833,558.245 L1103.81542,558.245 L1146.14,515.920417 Z"></path>
+            </g>
+            <g id="Path-2-Copy-5" fill-rule="nonzero">
+                <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                <use fill="#93DEFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+            </g>
+        </g>
+    </g>
+</svg>

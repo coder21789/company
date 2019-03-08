@@ -1,0 +1,45 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+  .titleLeft {
+    .smallTitle {
+      height: 79px;
+      font-size: 56px;
+      color: #d9eeff;
+      line-height: 79px;
+      text-shadow: 0 0 4px #3bf;
+    }
+    .description {
+      font-size: 27px;
+      color: #fff;
+      text-shadow: 0 0 6px #3bf;
+    }
+  }
+  .titleRight {
+    display: flex;
+    position: relative;
+    div {
+      width: 180px;
+      height: 72px;
+      line-height: 72px;
+      font-size: 34px;
+      color: #83b4cc;
+      text-align: center;
+    }
+    .active {
+      font-size: 38px;
+      color: #d9eeff;
+      text-shadow: 0 0 4px #3bf;
+    }
+    .activeIcon {
+      position: absolute;
+      z-index: 1;
+      width: 180px;
+      height: 72px;
+      transition: left 1s;
+      background: url('../../img/activeIcon.svg') no-repeat;
+      background-size: 125% 125%;
+      background-position: center center;
+    }
+  }
+}

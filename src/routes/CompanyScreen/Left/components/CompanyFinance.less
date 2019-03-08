@@ -1,0 +1,58 @@
+.panel {
+  font-size: 16px;
+  color: #fff;
+  position: absolute;
+  left: 46px;
+  bottom: 10px;
+  overflow: hidden;
+  &_title {
+    width: 146px;
+    height: 239px;
+    position: relative;
+    background: url('../../svg/panel2-title-bg.svg') -40px -36px no-repeat;
+    float: left;
+    .zh {
+      width: 24px;
+      height: 112px;
+      font-size: 20px;
+      line-height: 28px;
+      position: absolute;
+      left: 16px;
+      top: 13px;
+      color: #d9eeff;
+    }
+    .en {
+      width: 146px;
+      height: 20px;
+      font-size: 14px;
+      line-height: 20px;
+      position: absolute;
+      left: 9px;
+      bottom: 6px;
+      color: #cef;
+      text-transform: uppercase;
+    }
+  }
+  &_content {
+    position: relative;
+    float: left;
+    margin-left: -30px;
+    .empty {
+      text-align: center;
+      line-height: 24px;
+      width: 160px;
+      margin-left: 150px;
+      &_img {
+        width: 167px;
+        height: 152px;
+        background: url('../../img/empty.png') 50% 50% no-repeat;
+        background-size: cover;
+        margin: 30px 0 20px;
+      }
+      &_text {
+        font-size: 24px;
+        color: rgba(217, 238, 255, 1);
+      }
+    }
+  }
+}

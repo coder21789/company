@@ -1,0 +1,121 @@
+@import '../../../utils/utils.less';
+
+.cardWrap {
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #fafafa;
+
+  color: #d18c54;
+  font-family: 'PingFangSC', 'Monospaced Number', 'Chinese Quote', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  .cardTop {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+    .cardTopTitle {
+      i {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: currentColor;
+      }
+      h4 {
+        display: inline-block;
+        margin-left: 9px;
+        color: #666;
+        font-size: 14px;
+        font-weight: 400;
+      }
+      span {
+        float: right;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.45);
+      }
+    }
+
+    .listWrap {
+      .clearfix();
+      color: currentColor;
+      .alignLeft {
+        float: left;
+        em {
+          color: #666;
+          font-style: normal;
+        }
+        strong {
+          margin-left: 5px;
+          font-size: 24px;
+          font-weight: 400;
+          i {
+            font-size: 12px;
+            font-style: normal;
+          }
+        }
+      }
+      .alignRight {
+        float: right;
+        height: 36px;
+        line-height: 36px;
+      }
+      & + & {
+        margin-top: 12px;
+      }
+    }
+  }
+
+  .cardBottom {
+    padding-top: 8px;
+  }
+
+  & + & {
+    margin-top: 20px;
+  }
+
+  .listWrap {
+    .clearfix();
+    color: #666;
+    .alignLeft {
+      float: left;
+    }
+    .alignRight {
+      float: right;
+    }
+    & + & {
+      margin-top: 12px;
+    }
+  }
+
+  .percentWrap {
+    position: relative;
+    color: rgba(0, 0, 0, 0.45);
+    &.up {
+      padding-left: 12px;
+      color: #ff2466;
+    }
+    &.down {
+      padding-left: 12px;
+      color: #7ed321;
+    }
+    &.up:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translate3d(0, -50%, 0);
+      border-bottom: 4px solid currentColor;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+    }
+    &.down:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translate3d(0, -50%, 0);
+      border-top: 4px solid currentColor;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+    }
+  }
+}

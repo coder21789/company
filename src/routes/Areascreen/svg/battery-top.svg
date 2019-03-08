@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="256px" viewBox="0 0 80 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>效益-填充</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00EEFF" offset="0%"></stop>
+            <stop stop-color="#3796FE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="大屏-0727" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="五常街道产业大脑" transform="translate(-4952.000000, -2493.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-24" transform="translate(4386.000000, 2180.000000)">
+                <g id="效益-填充" transform="translate(566.000000, 313.000000)">
+                    <path d="M0,240 L80,240 L80,256 L0,256 L0,240 Z M0,210 L80,210 L80,226 L0,226 L0,210 Z M0,180 L80,180 L80,196 L0,196 L0,180 Z M0,150 L80,150 L80,166 L0,166 L0,150 Z M0,120 L80,120 L80,136 L0,136 L0,120 Z M0,90 L80,90 L80,106 L0,106 L0,90 Z M0,60 L80,60 L80,76 L0,76 L0,60 Z M0,30 L80,30 L80,46 L0,46 L0,30 Z M0,0 L80,0 L80,16 L0,16 L0,0 Z" id="效益-底色" opacity="0.100000001"></path>
+                    <path d="M0,240 L80,240 L80,256 L0,256 L0,240 Z M0,180 L80,180 L80,196 L0,196 L0,180 Z M0,210 L80,210 L80,226 L0,226 L0,210 Z M0,150 L80,150 L80,166 L0,166 L0,150 Z M0,120 L80,120 L80,136 L0,136 L0,120 Z M0,90 L80,90 L80,106 L0,106 L0,90 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

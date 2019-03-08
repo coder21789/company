@@ -1,0 +1,40 @@
+.cnt {
+  background: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  margin: 0;
+}
+.rightButton {
+  text-align: right;
+  margin-top: 6px;
+  button + button {
+    margin-left: 12px;
+  }
+}
+
+.clickStyle {
+  color: #4a90e2;
+  cursor: pointer;
+}
+
+:global {
+  .ant-modal-body {
+    padding: 20px;
+  }
+  .ant-form-item {
+    margin-bottom: 20px;
+  }
+  .ant-modal-header {
+    padding: 12px 20px;
+  }
+  .ant-btn-danger {
+    background: rgba(230, 50, 72, 1);
+    color: white;
+  }
+  .ant-form-item-label {
+    padding-right: 5px;
+  }
+  .ant-modal-close-x:before,
+  .anticon-cross:before {
+    content: '\e7fc';
+  }
+}

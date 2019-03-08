@@ -1,0 +1,63 @@
+.panel {
+  font-size: 16px;
+  color: #fff;
+  position: absolute;
+  left: 41px;
+  top: 372px;
+  &_title {
+    width: 329px;
+    height: 43px;
+    position: relative;
+    background: url('../../svg/panel-title-bg.svg') -10px -38px no-repeat;
+    margin-bottom: 22px;
+    .zh {
+      font-size: 20px;
+      color: rgba(217, 238, 255, 1);
+      position: absolute;
+      left: 9px;
+      bottom: 8px;
+    }
+    .en {
+      font-size: 14px;
+      color: #cef;
+      position: absolute;
+      right: 9px;
+      bottom: 8px;
+      text-transform: uppercase;
+    }
+  }
+  &_content {
+    position: relative;
+    width: 378px;
+    height: 350px;
+    background: url('../../svg/warn.svg') -30px -55px no-repeat;
+    color: rgba(255, 255, 255, 1);
+    .contentName {
+      font-size: 16px;
+      line-height: 23px;
+      position: absolute;
+    }
+    .amount {
+      font-size: 18px;
+      line-height: 25px;
+      position: absolute;
+      text-align: center;
+    }
+  }
+  .empty {
+    text-align: center;
+    width: 160px;
+    margin: 80px 0 0 80px;
+    &_img {
+      width: 167px;
+      height: 152px;
+      background: url('../../img/empty.png') 50% 50% no-repeat;
+      background-size: cover;
+      margin: 20px 0;
+    }
+    &_text {
+      font-size: 24px;
+      color: rgba(217, 238, 255, 1);
+    }
+  }
+}

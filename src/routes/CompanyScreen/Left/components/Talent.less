@@ -1,0 +1,132 @@
+.titleBg {
+  position: absolute;
+  right: 4px;
+  top: 391px;
+}
+.panel {
+  position: absolute;
+  top: 431px;
+  right: 44px;
+  overflow: hidden;
+  &_title {
+    width: 329px;
+    height: 43px;
+    position: relative;
+    float: right;
+    background: url('../../svg/panel-short-title-bg.svg') -8px -36px no-repeat;
+    .zh {
+      width: 84px;
+      font-size: 20px;
+      line-height: 28px;
+      position: absolute;
+      left: 9px;
+      bottom: 8px;
+      color: #d9eeff;
+    }
+    .en {
+      height: 20px;
+      font-size: 14px;
+      line-height: 20px;
+      position: absolute;
+      bottom: 8px;
+      right: 12px;
+      color: #cef;
+      text-transform: uppercase;
+    }
+  }
+  &_content {
+    padding-top: 43px;
+    position: relative;
+    height: 300px;
+    width: 441px;
+    clear: both;
+    overflow: hidden;
+    .postTop5List {
+      float: left;
+      width: 441px;
+      height: 253px;
+      position: relative;
+    }
+    .ageRangeList {
+      float: left;
+      width: 441px;
+      height: 253px;
+      position: relative;
+    }
+    .name {
+      font-size: 14px;
+      color: rgba(217, 238, 255, 1);
+      line-height: 20px;
+      position: absolute;
+      width: 80px;
+      text-align: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .num {
+      font-size: 20px;
+      font-family: DINAlternate-Bold;
+      color: rgba(255, 255, 255, 1);
+      line-height: 24px;
+      width: 80px;
+      text-align: center;
+      position: absolute;
+    }
+  }
+  .bg1 {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+  }
+  .bg2 {
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+  }
+  .empty {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    width: 160px;
+    margin-left: 150px;
+    &_img {
+      width: 167px;
+      height: 152px;
+      background: url('../../img/empty.png') 50% 50% no-repeat;
+      background-size: cover;
+      margin: 20px 0;
+    }
+    &_text {
+      font-size: 24px;
+      color: rgba(217, 238, 255, 1);
+    }
+  }
+}
+
+// 添加全局swiper
+:global(.swiper-pagination.talent-pagination) {
+  overflow: hidden;
+  position: absolute;
+  left: -20px;
+  top: 0;
+}
+:global(.talent-pagination.swiper-pagination-bullets .swiper-pagination-bullet) {
+  width: auto;
+  display: inline-block;
+  height: 30px;
+  font-size: 17px;
+  color: rgba(131, 180, 204, 1);
+  line-height: 30px;
+  margin: 0 0 0 12px;
+  text-align: center;
+  opacity: 1;
+  padding: 0;
+  background: none;
+  border-radius: 0;
+}
+:global(.talent-pagination.swiper-pagination-bullets .swiper-pagination-bullet-active) {
+  border-bottom: 1px solid rgba(171, 242, 255, 1);
+  color: rgba(173, 227, 255, 1);
+  font-weight: 500;
+}

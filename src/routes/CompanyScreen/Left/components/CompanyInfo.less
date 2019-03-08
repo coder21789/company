@@ -1,0 +1,59 @@
+.panel {
+  font-size: 16px;
+  color: #fff;
+  position: absolute;
+  left: 41px;
+  top: 130px;
+  &_title {
+    width: 329px;
+    height: 43px;
+    position: relative;
+    background: url('../../svg/panel-title-bg.svg') -10px -38px no-repeat;
+    margin-bottom: 22px;
+    .zh {
+      font-size: 20px;
+      color: rgba(217, 238, 255, 1);
+      position: absolute;
+      left: 9px;
+      bottom: 8px;
+    }
+    .en {
+      font-size: 14px;
+      color: #cef;
+      position: absolute;
+      right: 9px;
+      bottom: 8px;
+      text-transform: uppercase;
+    }
+  }
+  &_content {
+    color: rgba(255, 255, 255, 1);
+    line-height: 19px;
+    overflow: hidden;
+    width: 372px;
+    .border {
+      padding: 19px 2px 0;
+      background: rgba(204, 238, 255, 1);
+      position: absolute;
+      left: 0;
+      top: 0;
+      box-shadow: 0 0 44px 0 rgba(112, 207, 255, 0.5), 0 0 18px 0 rgba(51, 187, 255, 1);
+    }
+    .line,
+    .line_clear {
+      position: relative;
+      margin-bottom: 15px;
+      width: 176px;
+      padding-left: 10px;
+      float: left;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    .line_clear {
+      float: none;
+      clear: both;
+      width: 100%;
+    }
+  }
+}

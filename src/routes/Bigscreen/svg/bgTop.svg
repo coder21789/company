@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8897px" height="375px" viewBox="0 0 8897 375" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48 (47235) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="51.030165%" y1="83.1110099%" x2="51.030165%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0C247C" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#0B2B7F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="29.9178956%" y1="50%" x2="78.9686433%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#448FBC" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#B3DBFF" offset="41.4558303%"></stop>
+            <stop stop-color="#448FBC" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M6042.92862,1971.07704 C2597.76288,1880.78676 0,1478.10026 0,995 C0,445.476674 3361.22224,0 7507.5,0 C11653.7778,0 15015,445.476674 15015,995 C15015,1477.73846 12421.1267,1880.18355 8979.81043,1970.87366 L8934.13955,2062.56673 C8932.7866,2065.28303 8930.01325,2067 8926.97865,2067 L6096.82801,2067 C6093.82273,2067 6091.07098,2065.31572 6089.70379,2062.63945 L6042.92862,1971.07704 Z" id="path-3"></path>
+        <filter x="-0.3%" y="-2.2%" width="100.6%" height="104.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="8" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.2   0 0 0 0 0.733333333   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Artboard-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-5594.000000, -3598.000000)">
+        <g id="Group-2-Copy" transform="translate(1622.000000, 1876.000000)">
+            <path d="M6038.94379,1970.97246 C2595.75995,1880.4762 0,1477.91398 0,995 C0,445.476674 3361.22224,0 7507.5,0 C11653.7778,0 15015,445.476674 15015,995 C15015,1477.92471 12419.1248,1880.49408 8975.82681,1970.97849 L8930.20814,2062.56673 C8928.85519,2065.28303 8926.08184,2067 8923.04725,2067 L6092.8966,2067 C6089.89133,2067 6087.13958,2065.31572 6085.77239,2062.63945 L6038.94379,1970.97246 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+            <g id="Combined-Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <path stroke="url(#linearGradient-2)" stroke-width="8" d="M6043.03341,1967.07842 L6045.40943,1967.14069 L6093.2659,2060.81972 C6093.94949,2062.15786 6095.32537,2063 6096.82801,2063 L8926.97865,2063 C8928.49595,2063 8929.88263,2062.14152 8930.5591,2060.78337 L8977.30181,1966.93838 L8979.70505,1966.87504 C10673.2785,1922.24376 12190.8254,1801.13961 13287.2679,1626.00503 C14394.1193,1449.20785 15011,1226.85921 15011,995 C15011,730.954899 14211.3144,480.37671 12815.5786,295.394078 C11416.9248,110.024703 9525.55877,4 7507.5,4 C5489.44123,4 3598.07524,110.024703 2199.42138,295.394078 C803.685593,480.37671 4,730.954899 4,995 C4,1227.03313 621.804642,1449.53643 1730.15745,1626.39223 C2828.14704,1801.59441 4347.66227,1922.64643 6043.03341,1967.07842 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,243 @@
+.wrap {
+  width: 3770px;
+  height: 100%;
+  position: absolute;
+  //background-color: red;
+  left: 1500px;
+  top: 0;
+  z-index: 11;
+  .titleWrap {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    p {
+      margin: 0;
+      padding: 0;
+    }
+    .title {
+      font-size: 120px;
+      color: white;
+    }
+    .subtitle {
+      padding-left: 65px;
+      font-size: 46px;
+      color: white;
+    }
+  }
+  .map {
+    width: 3300px;
+    height: 2200px;
+    position: absolute;
+    top: 475px;
+    left: 270px;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .mapItem {
+    position: absolute;
+    z-index: 2;
+  }
+  .mapText {
+    position: absolute;
+    z-index: 10;
+    .icon {
+      float: left;
+      width: 38px;
+      height: 38px;
+      border-radius: 19px;
+      background-color: rgba(255, 255, 255, 0.5);
+      transform: translateY(15px);
+      padding: 6px;
+      margin-right: 15px;
+      .iconInner {
+        width: 26px;
+        height: 26px;
+        border-radius: 13px;
+        background-color: white;
+      }
+    }
+    .text {
+      float: left;
+      font-size: 46px;
+      color: white;
+      // .title {
+      // }
+      // .value {
+      // }
+    }
+  }
+  .mapTextActive {
+    position: absolute;
+    z-index: 10;
+    .iconBar {
+      position: absolute;
+      top: -320px;
+      left: -280px;
+    }
+    .text {
+      position: absolute;
+      width: 350px;
+      left: 40px;
+      font-size: 60px;
+      color: white;
+    }
+  }
+  .card {
+    position: absolute;
+    bottom: 550px;
+    right: 200px;
+    .top {
+      position: absolute;
+      top: -200px;
+      left: 100px;
+      font-size: 80px;
+      color: white;
+    }
+    .cir {
+      position: absolute;
+      top: -80px;
+      left: -80px;
+      z-index: 2;
+    }
+    .cont {
+      position: absolute;
+      top: 100px;
+      left: 50px;
+      z-index: 4;
+      .left {
+        width: 365px;
+        float: left;
+        p {
+          margin: 0;
+          padding: 0 50px 0 0;
+          line-height: 110px;
+          color: #ade3ff;
+          font-size: 50px;
+          text-align: right;
+        }
+      }
+      .center {
+        float: left;
+        width: 360px;
+        p {
+          margin: 0;
+          line-height: 110px;
+          color: #fff;
+          font-size: 70px;
+          text-align: left;
+          font-weight: bold;
+        }
+        .logo {
+          width: 360px;
+          height: 120px;
+          color: white;
+          font-size: 70px;
+          line-height: 120px;
+        }
+      }
+      .right {
+        float: left;
+        margin-left: 50px;
+        width: 360px;
+        .bigLogo {
+          width: 360px;
+          height: 440px;
+          padding: 30px 0 0;
+          img {
+            display: block;
+            margin: 0 auto 40px;
+          }
+          color: white;
+          text-align: center;
+          font-size: 60px;
+        }
+        .logo {
+          width: 360px;
+          height: 120px;
+          color: white;
+          font-size: 70px;
+          line-height: 120px;
+        }
+      }
+    }
+  }
+  .bottom {
+    position: absolute;
+    bottom: 40px;
+    height: 400px;
+    background-color: white;
+    left: 1160px;
+    .left {
+      width: 150px;
+      height: 100%;
+      //background-color: red;
+      position: absolute;
+      left: 0;
+      .title,
+      .enTitle {
+        writing-mode: tb-rl;
+        font-size: 80px;
+        font-weight: bold;
+        color: white;
+        float: left;
+        text-align: left;
+      }
+      .title {
+        line-height: 100px;
+        letter-spacing: 20px;
+      }
+      .enTitle {
+        font-size: 30px;
+      }
+    }
+    .center,
+    .right {
+      position: absolute;
+      width: 570px;
+      height: 100%;
+      left: 240px;
+      .title {
+        width: 100%;
+        height: 40px;
+        .l,
+        .text,
+        .r {
+          float: left;
+          height: 40px;
+        }
+        .l {
+          margin-right: 16px;
+          width: 8px;
+          background-color: rgba(219, 240, 255, 1);
+        }
+        .text {
+          margin-right: 30px;
+          color: #dbf0ff;
+          font-size: 40px;
+          line-height: 40px;
+        }
+        .r {
+          margin-top: 17px;
+          width: 390px;
+          height: 6px;
+          background-color: #cef;
+        }
+      }
+      .cont {
+        width: 100%;
+        height: calc(~'100% - 40px');
+      }
+    }
+    .right {
+      position: absolute;
+      left: 928px;
+      .title {
+        .r {
+          width: 430px;
+          height: 6px;
+          background-color: #cef;
+        }
+      }
+    }
+  }
+}

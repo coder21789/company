@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>余杭一图看懂经济</title>
+  <style>
+    body {
+      margin: 0;
+    }
+    .mobile-img {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <img id="showImg" class="mobile-img" src="../assets/mobile-quarter.jpeg" alt="">
+
+  <script>
+
+    function getImg() {
+      var href = window.location.href.split('?')[1].split('&')[0].split('=')[1]
+      var $Img = document.getElementById('showImg')
+      $Img.setAttribute('src', href);
+    }
+
+    getImg()
+  </script>
+</body>
+</html>

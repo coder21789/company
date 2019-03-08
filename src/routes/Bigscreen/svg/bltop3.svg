@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1412px" height="672px" viewBox="0 0 1412 672" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0053A8" stop-opacity="0.6" offset="0%"></stop>
+            <stop stop-color="#00296F" stop-opacity="0.6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-30.4986714%" x2="50%" y2="108.996786%" id="linearGradient-2">
+            <stop stop-color="#69D2FF" offset="0%"></stop>
+            <stop stop-color="#65CCF8" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M10,74 L1402,74 C1407.52285,74 1412,78.4771525 1412,84 L1412,662 C1412,667.522847 1407.52285,672 1402,672 L10,672 C4.4771525,672 6.76353751e-16,667.522847 0,662 L0,84 C-6.76353751e-16,78.4771525 4.4771525,74 10,74 Z" id="path-3"></path>
+        <linearGradient x1="50%" y1="12.0098279%" x2="50%" y2="70.7134397%" id="linearGradient-4">
+            <stop stop-color="#0053A8" offset="0%"></stop>
+            <stop stop-color="#00296F" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="56.1564726%" y1="-16.464014%" x2="53.3638689%" y2="78.334833%" id="linearGradient-5">
+            <stop stop-color="#69D2FF" offset="0%"></stop>
+            <stop stop-color="#65CCF8" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-6" x="456" y="0" width="500" height="672" rx="10"></rect>
+        <pattern id="pattern-7" width="38.4" height="38.4" x="417.6" y="-38.4" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-8" transform="scale(0.8,0.8)"></use>
+        </pattern>
+        <image id="image-8" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAEGWlDQ1BrQ0dDb2xvclNwYWNlR2VuZXJpY1JHQgAAOI2NVV1oHFUUPrtzZyMkzlNsNIV0qD8NJQ2TVjShtLp/3d02bpZJNtoi6GT27s6Yyc44M7v9oU9FUHwx6psUxL+3gCAo9Q/bPrQvlQol2tQgKD60+INQ6Ium65k7M5lpurHeZe58853vnnvuuWfvBei5qliWkRQBFpquLRcy4nOHj4g9K5CEh6AXBqFXUR0rXalMAjZPC3e1W99Dwntf2dXd/p+tt0YdFSBxH2Kz5qgLiI8B8KdVy3YBevqRHz/qWh72Yui3MUDEL3q44WPXw3M+fo1pZuQs4tOIBVVTaoiXEI/MxfhGDPsxsNZfoE1q66ro5aJim3XdoLFw72H+n23BaIXzbcOnz5mfPoTvYVz7KzUl5+FRxEuqkp9G/Ajia219thzg25abkRE/BpDc3pqvphHvRFys2weqvp+krbWKIX7nhDbzLOItiM8358pTwdirqpPFnMF2xLc1WvLyOwTAibpbmvHHcvttU57y5+XqNZrLe3lE/Pq8eUj2fXKfOe3pfOjzhJYtB/yll5SDFcSDiH+hRkH25+L+sdxKEAMZahrlSX8ukqMOWy/jXW2m6M9LDBc31B9LFuv6gVKg/0Szi3KAr1kGq1GMjU/aLbnq6/lRxc4XfJ98hTargX++DbMJBSiYMIe9Ck1YAxFkKEAG3xbYaKmDDgYyFK0UGYpfoWYXG+fAPPI6tJnNwb7ClP7IyF+D+bjOtCpkhz6CFrIa/I6sFtNl8auFXGMTP34sNwI/JhkgEtmDz14ySfaRcTIBInmKPE32kxyyE2Tv+thKbEVePDfW/byMM1Kmm0XdObS7oGD/MypMXFPXrCwOtoYjyyn7BV29/MZfsVzpLDdRtuIZnbpXzvlf+ev8MvYr/Gqk4H/kV/G3csdazLuyTMPsbFhzd1UabQbjFvDRmcWJxR3zcfHkVw9GfpbJmeev9F08WW8uDkaslwX6avlWGU6NRKz0g/SHtCy9J30o/ca9zX3Kfc19zn3BXQKRO8ud477hLnAfc1/G9mrzGlrfexZ5GLdn6ZZrrEohI2wVHhZywjbhUWEy8icMCGNCUdiBlq3r+xafL549HQ5jH+an+1y+LlYBifuxAvRN/lVVVOlwlCkdVm9NOL5BE4wkQ2SMlDZU97hX86EilU/lUmkQUztTE6mx1EEPh7OmdqBtAvv8HdWpbrJS6tJj3n0CWdM6busNzRV3S9KTYhqvNiqWmuroiKgYhshMjmhTh9ptWhsF7970j/SbMrsPE1suR5z7DMC+P/Hs+y7ijrQAlhyAgccjbhjPygfeBTjzhNqy28EdkUh8C+DU9+z2v/oyeH791OncxHOs5y2AtTc7nb/f73TWPkD/qwBnjX8BoJ98VQNcC+8AAAFFSURBVGgF7djbDYMwDAXQBjEMYqyqY1WMxTppLiJIQIA8ariWkp8IPuweO60am67r7MstY8wwjuPH7dMz3uUua63p+/7r9rePIRW/9QmQzCV9ub0YgSIgzhxvQkjFb1EZBAdEKolkfJTqtnb7bv/zOJm58moRE0AzYgFoRawAGhE7gDZEEKAJcQjQgjgFaEBcAtgRUQBmRDSAFZEEYEQkA9gQWQAmRDaABVEEYEAUAx5H4EaGOyw+SMl66mbXzNOD4k6gCPNUY/CFwF1YOn5zRxJJRINqaUbUuZA/79sd3wm3xIdbdS60rXzo2XVCbO60/HxKJgFKKv4CkEziuyKBWAE0InYAbYggQBPiEKAFcQrQgLgEsCOiAMyIaAArIgnAiEgGsCGyAEyIbAALogjAgCgGPI7AX9w6F3JtqHMhnMWLFSrSD9jOnakVHpZYAAAAAElFTkSuQmCC"></image>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="状态" transform="translate(-729.000000, -1778.000000)">
+            <g id="Group-5" transform="translate(729.000000, 1778.000000)">
+                <g id="Rectangle-38">
+                    <use fill-opacity="0.5" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <path stroke="url(#linearGradient-2)" stroke-width="4.62" d="M10,76.31 C5.75293027,76.31 2.31,79.7529303 2.31,84 L2.31,662 C2.31,666.24707 5.75293027,669.69 10,669.69 L1402,669.69 C1406.24707,669.69 1409.69,666.24707 1409.69,662 L1409.69,84 C1409.69,79.7529303 1406.24707,76.31 1402,76.31 L10,76.31 Z"></path>
+                </g>
+                <g id="Rectangle-40">
+                    <use fill="url(#linearGradient-4)" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    <use fill-opacity="0.1" fill="url(#pattern-7)" fill-rule="evenodd" style="mix-blend-mode: screen;" xlink:href="#path-6"></use>
+                    <rect stroke="url(#linearGradient-5)" stroke-width="4.62" x="458.31" y="2.31" width="495.38" height="667.38" rx="10"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

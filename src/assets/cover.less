@@ -1,0 +1,49 @@
+@import '~antd/lib/style/themes/default.less';
+
+:global {
+  .content-card.ant-card {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+
+  .ant-layout-sider {
+    background: linear-gradient(180deg, rgba(12, 69, 136, 1), rgba(47, 126, 149, 1)) !important;
+  }
+  .ant-menu-dark,
+  .ant-menu-dark .ant-menu-sub {
+    background: transparent !important;
+  }
+  .ant-menu.ant-menu-dark .ant-menu-item-selected,
+  .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+  }
+
+  .ant-menu-dark .ant-menu-item:hover,
+  .ant-menu-dark .ant-menu-item-active {
+    font-weight: bold;
+    font-family: PingFangSC-Semibold;
+  }
+
+  .ant-menu-vertical .ant-menu-item,
+  .ant-menu-inline .ant-menu-item {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .ant-layout-header {
+    height: 60px !important;
+    line-height: 60px !important;
+  }
+  .BMap_cpyCtrl,
+  .anchorBL {
+    display: none !important;
+  }
+
+  .anticon-exclamation-circle:before {
+    content: '\e604' !important;
+  }
+
+  .anticon-check-circle:before {
+    content: '\e632' !important;
+  }
+}

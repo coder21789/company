@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210px" height="339px" viewBox="0 0 210 339" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="29.6831234%" y1="24.0126071%" x2="90.2354119%" y2="104.094072%" id="linearGradient-1">
+            <stop stop-color="#EBFFB4" offset="0%"></stop>
+            <stop stop-color="#86CF18" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="29.6831234%" y1="24.0126071%" x2="90.2354119%" y2="104.094072%" id="linearGradient-2">
+            <stop stop-color="#A3CC31" offset="0%"></stop>
+            <stop stop-color="#598D0A" offset="100%"></stop>
+        </linearGradient>
+        <ellipse id="path-3" cx="102.235" cy="11.2368459" rx="11.235" ry="11.2368459"></ellipse>
+        <filter x="-200.3%" y="-200.2%" width="500.5%" height="500.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="11" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.850666667   0 0 0 0 1   0 0 0 0 0.44  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.786666667   0 0 0 0 1   0 0 0 0 0.2  0 0 0 1 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="大屏-0727" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="五常街道产业大脑" transform="translate(-7200.000000, -2611.000000)">
+            <g id="Group-25" transform="translate(6490.000000, 2180.000000)">
+                <g id="知识产权分析-1" transform="translate(710.000000, 452.000000)">
+                    <polygon id="知识产权元素-1" fill="url(#linearGradient-1)" points="102.607138 8 0 317.60674 143.817889 317.60674"></polygon>
+                    <polygon id="知识产权元素-2" fill="url(#linearGradient-2)" points="102 8 209.671133 317.30342 143.291831 317.30342"></polygon>
+                    <g id="知识产权元素-3">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FCFFF5" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

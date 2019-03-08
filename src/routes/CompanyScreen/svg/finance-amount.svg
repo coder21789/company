@@ -1,0 +1,81 @@
+
+<svg width="370px" height="217px" viewBox="0 0 370 217" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="17.8710561%" y1="0%" x2="59.1702029%" y2="92.891619%" id="linearGradient-amout-1">
+            <stop stop-color="#44C3FF" stop-opacity="0.18529212" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="12.9949493%" y1="0%" x2="50%" y2="57.6193128%" id="linearGradient-amout-2">
+            <stop stop-color="#44C3FF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-129.0%" y="-70.6%" width="317.2%" height="296.3%" filterUnits="objectBoundingBox" id="filter-amout-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.8   0 0 0 0 0.933333333   0 0 0 0 1  0 0 0 0.493178216 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-amout-4" points="27 102 33 102 38 109 32 109"></polygon>
+        <filter x="-763.6%" y="-1200.0%" width="1627.3%" height="2500.0%" filterUnits="objectBoundingBox" id="filter-amout-5">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="22" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.44   0 0 0 0 0.813333333   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.2   0 0 0 0 0.733333333   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-amout-6" points="17 102 23 102 28 109 22 109"></polygon>
+        <filter x="-763.6%" y="-1200.0%" width="1627.3%" height="2500.0%" filterUnits="objectBoundingBox" id="filter-amout-7">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="22" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.44   0 0 0 0 0.813333333   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.2   0 0 0 0 0.733333333   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="amout" transform="translate(-393.000000, -821.000000)">
+            <g id="GroupAmout" transform="translate(293.000000, 821.000000)" fill="url(#linearGradient-amout-1)" stroke="url(#linearGradient-amout-2)">
+                <path d="M469.5,209.5 L469.5,0.5 L160.309017,0.5 L100.576978,119.964079 L160.267592,209.5 L469.5,209.5 Z" id="Rectangle-2"></path>
+            </g>
+            <g id="GroupAmout-13" filter="url(#filter-amout-3)" transform="translate(462.000000, 874.000000)">
+                <g id="GroupAmout-7">
+                    <path d="M18.1782373,99.5755899 L-6.94553475,85.0703734 L-6.94553475,55.1007547 M70.7805247,6.94553475 L99.5755899,23.5703734 L99.5755899,57.8203734" id="Polygon-2" stroke="#CCEEFF" stroke-width="4" transform="translate(46.315028, 53.260562) rotate(90.000000) translate(-46.315028, -53.260562) "></path>
+                    <g id="Rectangle-8" transform="translate(32.500000, 105.500000) scale(-1, 1) translate(-32.500000, -105.500000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-amout-5)" xlink:href="#path-amout-4"></use>
+                        <use fill="#CCEEFF" fill-rule="evenodd" xlink:href="#path-amout-4"></use>
+                    </g>
+                    <g id="Rectangle-8" transform="translate(22.500000, 105.500000) scale(-1, 1) translate(-22.500000, -105.500000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-amout-7)" xlink:href="#path-amout-6"></use>
+                        <use fill="#CCEEFF" fill-rule="evenodd" xlink:href="#path-amout-6"></use>
+                    </g>
+                </g>
+                <g id="Combined-Shape" transform="translate(27.333333, 33.000000)">
+                    <g id="path-amout-6-link" fill="#000000" fill-rule="nonzero">
+                        <polygon id="path-amout-6" points="21.6666667 19.775049 21.6666667 27.0210703 36.6666667 27.0210703 36.6666667 33.0210703 21.6666667 33.0210703 21.6666667 45.3544033 15.6666667 45.3544033 15.6666667 33.0210703 0.666666667 33.0210703 0.666666667 27.0210703 15.6666667 27.0210703 15.6666667 19.687737 0.666666667 19.687737 0.666666667 13.687737 9.8549938 13.687737 0.426648333 4.25939153 4.66928907 0.0167508667 18.0069419 13.3544037 19.6020307 13.3544037 32.9396835 0.0167508667 37.182324 4.25939153 27.7539787 13.687737 36.6666667 13.687737 36.6666667 19.687737 21.7539787 19.687737"></polygon>
+                    </g>
+                    <g id="path-amout-6-link" fill="#FFFFFF">
+                        <polygon id="path-amout-6" points="21.6666667 19.775049 21.6666667 27.0210703 36.6666667 27.0210703 36.6666667 33.0210703 21.6666667 33.0210703 21.6666667 45.3544033 15.6666667 45.3544033 15.6666667 33.0210703 0.666666667 33.0210703 0.666666667 27.0210703 15.6666667 27.0210703 15.6666667 19.687737 0.666666667 19.687737 0.666666667 13.687737 9.8549938 13.687737 0.426648333 4.25939153 4.66928907 0.0167508667 18.0069419 13.3544037 19.6020307 13.3544037 32.9396835 0.0167508667 37.182324 4.25939153 27.7539787 13.687737 36.6666667 13.687737 36.6666667 19.687737 21.7539787 19.687737"></polygon>
+                    </g>
+                    <g id="path-amout-6-link" fill="#FFFFFF" fill-rule="nonzero">
+                        <polygon id="path-amout-6" points="21.6666667 19.775049 21.6666667 27.0210703 36.6666667 27.0210703 36.6666667 33.0210703 21.6666667 33.0210703 21.6666667 45.3544033 15.6666667 45.3544033 15.6666667 33.0210703 0.666666667 33.0210703 0.666666667 27.0210703 15.6666667 27.0210703 15.6666667 19.687737 0.666666667 19.687737 0.666666667 13.687737 9.8549938 13.687737 0.426648333 4.25939153 4.66928907 0.0167508667 18.0069419 13.3544037 19.6020307 13.3544037 32.9396835 0.0167508667 37.182324 4.25939153 27.7539787 13.687737 36.6666667 13.687737 36.6666667 19.687737 21.7539787 19.687737"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

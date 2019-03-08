@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="43px" viewBox="0 0 37 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48 (47235) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00D2AC" offset="0%"></stop>
+            <stop stop-color="#00CE6A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="宽屏-风格1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-702.000000, -1293.000000)">
+        <g id="Group-36" transform="translate(118.000000, 105.000000)" fill="url(#linearGradient-1)">
+            <path d="M611.878019,1209.5419 L621.08,1209.5419 L602.6,1230.075 L584.12,1209.5419 L593.2485,1209.5419 L593.2485,1188.495 L611.878019,1188.495 L611.878019,1209.5419 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

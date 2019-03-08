@@ -1,0 +1,138 @@
+.leftTwoWrap {
+  position: absolute;
+  top: 1170px;
+  left: 80px;
+
+  width: 2024px;
+  height: 974px;
+
+  margin-top: -43px;
+  padding-top: 43px;
+  border-radius: 1px;
+  background: url('../../img/leftTwoBg.svg') 100% 100% no-repeat;
+
+  color: #d9eeff;
+  font-size: 56px;
+
+  display: flex;
+  .wrap {
+    flex: 1;
+    padding: 75px 70px 0 67px;
+    .cnt {
+      width: 100%;
+      // transform: translateY(-130px);
+      padding-left: 100px;
+      position: relative;
+      overflow: hidden;
+      .text {
+        position: absolute;
+        left: 685px;
+        top: 0;
+        overflow: hidden;
+        margin: 0 auto;
+        text-align: center;
+        .name {
+          color: white;
+          font-size: 60px;
+        }
+        .value {
+          width: 400px;
+          text-align: center;
+          color: white;
+          font-size: 140px;
+        }
+      }
+      .galaxy {
+        // overflow: hidden;
+        width: 100%;
+        height: 720px;
+        // perspective: 1000px;
+        img {
+          margin-left: 150px;
+          margin-top: -90px;
+          margin-bottom: 120px;
+        }
+        .orbit {
+          position: absolute;
+          top: -270px;
+          left: 251px;
+          border: 4px solid #1ad3fd;
+          transform-style: preserve-3d;
+          width: 1250px;
+          height: 1250px;
+          border-radius: 50%;
+          transform: rotateX(70deg) translateZ(0);
+          animation: orbit-rotate 10s linear infinite;
+          .planet {
+            width: 240px;
+            height: 240px;
+            animation: self-rotate 10s linear infinite;
+            transform: rotateX(-90deg);
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            .value {
+              height: 42px;
+              font-size: 42px;
+              color: #ade3ff;
+              white-space: nowrap;
+            }
+          }
+          .planet1 {
+            position: absolute;
+            bottom: -100px;
+            right: 365px;
+            background: url('../../img/ball5.png') no-repeat;
+            background-size: 100%;
+          }
+          .planet2 {
+            position: absolute;
+            top: 665px;
+            right: -100px;
+            background: url('../../img/ball3.png') no-repeat;
+            background-size: 100%;
+          }
+          .planet3 {
+            position: absolute;
+            top: -60px;
+            right: 265px;
+            background: url('../../img/ball1.png') no-repeat;
+            background-size: 100%;
+          }
+          .planet4 {
+            position: absolute;
+            top: 65px;
+            left: 65px;
+            background: url('../../img/ball2.png') no-repeat;
+            background-size: 100%;
+          }
+          .planet5 {
+            position: absolute;
+            bottom: 115px;
+            left: 0;
+            background: url('../../img/ball4.png') no-repeat;
+            background-size: 100%;
+          }
+        }
+        @keyframes orbit-rotate {
+          0% {
+            transform: rotateX(70deg) rotateZ(0deg) translateZ(0);
+          }
+
+          100% {
+            transform: rotateX(70deg) rotateZ(-360deg) translateZ(0);
+          }
+        }
+        @keyframes self-rotate {
+          0% {
+            transform: rotateX(-90deg) rotateY(360deg) rotateZ(0deg);
+          }
+
+          100% {
+            transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg);
+          }
+        }
+      }
+    }
+  }
+}

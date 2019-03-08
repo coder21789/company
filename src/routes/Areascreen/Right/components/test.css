@@ -1,0 +1,135 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  perspective: 4000px;
+}
+
+.abc {
+}
+.galaxy {
+  /* perspective: 600px;
+  perspective-origin: 50% 50%;
+  -webkit-perspective: 600px;
+  -webkit-perspective-origin: 50% 50%; */
+}
+.orbit {
+  border: 4px solid red;
+  transform-style: preserve-3d;
+  padding: 65px;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  animation: orbit-rotate 10s linear infinite;
+}
+.planet {
+  width: 50px;
+  height: 50px;
+  background: url('../../img/ball1.png') no-repeat;
+  background-size: 100% 100%;
+  border-radius: 50%;
+  animation: self-rotate 10s linear infinite;
+  transform: rotateX(-90deg);
+}
+@keyframes orbit-rotate {
+  0% {
+    transform: rotateX(70deg) rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateX(70deg) rotateZ(-360deg);
+  }
+}
+@keyframes self-rotate {
+  0% {
+    transform: rotateX(-90deg) rotateY(360deg) rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateX(-90deg) rotateY(0deg) rotateZ(0deg);
+  }
+}
+
+.planet2 {
+  position: absolute;
+  top: 65px;
+  right: 65px;
+}
+
+.planet3 {
+  position: absolute;
+  bottom: 65px;
+  right: 65px;
+}
+
+/*
+
+.Planet--mercury {
+    width: 64px;
+    height: 64px;
+}
+.Planet--mercury::before {
+    width: 16px;
+    height: 16px;
+    margin: -8px;
+    background-color: #ffa700;
+    transform-origin: center 40px;
+    animation: rotate 0.53204s linear infinite;
+}
+.Planet--venus {
+    width: 112px;
+    height: 112px;
+}
+.Planet--venus::before {
+    width: 20px;
+    height: 20px;
+    margin: -10px;
+    background-color: #0fb;
+    transform-origin: center 66px;
+    animation: rotate 1.35899s linear infinite;
+}
+
+.Planet--mars {
+    width: 240px;
+    height: 240px;
+}
+.Planet--mars::before {
+    width: 20px;
+    height: 20px;
+    margin: -10px;
+    background-color: #f00;
+    transform-origin: center 130px;
+    animation: rotate 4.15475s linear infinite;
+}
+.Planet--jupiter {
+    width: 480px;
+    height: 480px;
+}
+.Planet--jupiter::before {
+    width: 32px;
+    height: 32px;
+    margin: -16px;
+    background-color: #0f7;
+    transform-origin: center 256px;
+    animation: rotate 26.2031s linear infinite;
+}
+
+
+.Planet--neptun {
+    width: 960px;
+    height: 960px;
+}
+.Planet--neptun::before {
+    width: 12px;
+    height: 12px;
+    margin: -6px;
+    background-color: #06f;
+    transform-origin: center 486px;
+    animation: rotate 364.04847s linear infinite;
+} */

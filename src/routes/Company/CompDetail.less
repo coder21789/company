@@ -1,0 +1,110 @@
+:global {
+  .global-search-wrapper {
+    padding-right: 50px;
+  }
+
+  .global-search {
+    width: 100%;
+  }
+
+  .global-search.ant-select-auto-complete .ant-select-selection--single {
+    margin-right: -46px;
+  }
+
+  .global-search.ant-select-auto-complete .ant-input-affix-wrapper .ant-input:not(:last-child) {
+    padding-right: 62px;
+  }
+
+  .global-search.ant-select-auto-complete .ant-input-affix-wrapper .ant-input-suffix {
+    right: 0;
+  }
+
+  .global-search.ant-select-auto-complete .ant-input-affix-wrapper .ant-input-suffix button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .global-search-item-count {
+    position: absolute;
+    right: 16px;
+  }
+}
+
+.cardTitleLeft {
+  :global {
+    .ant-card-head {
+      padding-left: 0;
+      padding-right: 0;
+      .ant-card-head-title {
+        padding: 16px 0 6px;
+        color: #333;
+      }
+    }
+  }
+}
+
+.cnt {
+  background: rgba(255, 255, 255, 1);
+  // box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.baseInfo {
+  display: flex;
+  .name {
+    width: 140px;
+    text-align: right;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.45);
+    margin-right: 12px;
+    margin-bottom: 8px;
+  }
+  .value {
+    width: ~'calc(100% - 140px)';
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .iconCore {
+    font-size: 14px;
+    padding: 2px 15px;
+    letter-spacing: 1.5;
+    transform: rotate(-25deg) translateX(10px) translateY(-20px);
+    border: 5px solid rgba(235, 82, 82, 0.7356);
+    // color: #eb5252;
+  }
+}
+
+.warn {
+  height: 460px;
+  .warnCnt {
+    margin: 0;
+    padding: 0;
+    height: 430px;
+    .warnItem {
+      display: flex;
+      justify-content: space-between;
+      height: 28px;
+      .itemLeft {
+        width: ~'calc(100% - 160px)';
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        .name {
+          font-size: 14px;
+          color: rgba(0, 0, 0, 0.45);
+        }
+        .value {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .pagina {
+    text-align: right;
+  }
+}
